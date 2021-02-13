@@ -3,12 +3,16 @@ body {
     color:#a55eea;
     text-align: center;
     position: static;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
-.btn {
-    cursor: pointer;
+
+
+button {
+    border: none;
+    background-color: transparent;
 }
+
 .clicked {
     color: darkblue;
 }
@@ -16,8 +20,20 @@ body {
 .form,
 .greetings {
     display: none;
+    color:rgb(224, 81, 46);
 }
 
+.js-toDoList {
+    width: fit-content;
+    margin: auto;
+}
+
+.js-clock {
+    color:rgb(235, 188, 86);
+}
+.js-weather {
+    color: rgb(74, 123, 231);
+}
 .showing {
     display: block;
 }
